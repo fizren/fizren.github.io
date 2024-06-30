@@ -1,0 +1,6 @@
+yaml
+baseURL: "https://Fizren.github.io/"
+title: Piotr Statkiewicz
+theme: PaperMod
+publishDir: docs
+themesDir: themes
