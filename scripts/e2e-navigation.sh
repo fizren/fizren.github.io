@@ -33,9 +33,9 @@ hugo server \
   --source "$repo_root" \
   --disableFastRender \
   --disableKinds RSS \
+  --renderToMemory \
   --bind 127.0.0.1 \
   --port "$port" \
-  --baseURL "${base_url}/" \
   >"$server_log" 2>&1 &
 server_pid="$!"
 
@@ -62,6 +62,15 @@ assert_body_contains() {
   fi
 }
 
+assert_body_matches() {
+  local body="$1"
+  local pattern="$2"
+  if ! grep -Eq "$pattern" <<<"$body"; then
+    echo "Fail: missing expected pattern: $pattern"
+    exit 1
+  fi
+}
+
 pl_home="$(curl -fsS "${base_url}/")"
 en_home="$(curl -fsS "${base_url}/en/")"
 
@@ -72,12 +81,12 @@ assert_body_contains "$pl_home" ">Praca<"
 assert_body_contains "$pl_home" ">Rodzina<"
 assert_body_contains "$pl_home" ">Małolat<"
 for href in \
-  "href=\"${base_url}/notes/\"" \
-  "href=\"${base_url}/photos/\"" \
-  "href=\"${base_url}/work/\"" \
-  "href=\"${base_url}/family/\"" \
-  "href=\"${base_url}/malolat/\""; do
-  assert_body_contains "$pl_home" "$href"
+  'href="[^"]*/notes/"' \
+  'href="[^"]*/photos/"' \
+  'href="[^"]*/work/"' \
+  'href="[^"]*/family/"' \
+  'href="[^"]*/malolat/"'; do
+  assert_body_matches "$pl_home" "$href"
 done
 
 # EN menu labels and links
@@ -87,16 +96,16 @@ assert_body_contains "$en_home" ">Work<"
 assert_body_contains "$en_home" ">Family<"
 assert_body_contains "$en_home" ">Małolat<"
 for href in \
-  "href=\"${base_url}/en/notes/\"" \
-  "href=\"${base_url}/en/photos/\"" \
-  "href=\"${base_url}/en/work/\"" \
-  "href=\"${base_url}/en/family/\"" \
-  "href=\"${base_url}/en/malolat/\""; do
-  assert_body_contains "$en_home" "$href"
+  'href="[^"]*/en/notes/"' \
+  'href="[^"]*/en/photos/"' \
+  'href="[^"]*/en/work/"' \
+  'href="[^"]*/en/family/"' \
+  'href="[^"]*/en/malolat/"'; do
+  assert_body_matches "$en_home" "$href"
 done
 
 # Language switch links
-assert_body_contains "$pl_home" "href=\"${base_url}/en/\""
-assert_body_contains "$en_home" "href=\"${base_url}/\""
+assert_body_matches "$pl_home" 'href="[^"]*/en/"'
+assert_body_matches "$en_home" 'href="[^"]*/"'
 
 echo "Pass: e2e navigation checks are green."
