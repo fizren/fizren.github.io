@@ -3,3 +3,75 @@ title = "Piotr Statkiewicz"
 theme = "PaperMod"
 themesDir = "themes"
 publishDir = "docs"
+defaultContentLanguage = "pl"
+
+[languages]
+  [languages.pl]
+    languageName = "Polski"
+    languageCode = "pl-PL"
+    weight = 1
+
+  [languages.en]
+    languageName = "English"
+    languageCode = "en-US"
+    weight = 2
+
+[[languages.pl.menu.main]]
+identifier = "notes"
+name = "Notatki"
+pageRef = "/notes"
+weight = 10
+
+[[languages.pl.menu.main]]
+identifier = "photos"
+name = "Zdjęcia"
+pageRef = "/photos"
+weight = 20
+
+[[languages.pl.menu.main]]
+identifier = "work"
+name = "Praca"
+pageRef = "/work"
+weight = 30
+
+[[languages.pl.menu.main]]
+identifier = "family"
+name = "Rodzina"
+pageRef = "/family"
+weight = 40
+
+[[languages.pl.menu.main]]
+identifier = "malolat"
+name = "Małolat"
+pageRef = "/malolat"
+weight = 50
+
+[[languages.en.menu.main]]
+identifier = "notes"
+name = "Notes"
+pageRef = "/notes"
+weight = 10
+
+[[languages.en.menu.main]]
+identifier = "photos"
+name = "Photos"
+pageRef = "/photos"
+weight = 20
+
+[[languages.en.menu.main]]
+identifier = "work"
+name = "Work"
+pageRef = "/work"
+weight = 30
+
+[[languages.en.menu.main]]
+identifier = "family"
+name = "Family"
+pageRef = "/family"
+weight = 40
+
+[[languages.en.menu.main]]
+identifier = "malolat"
+name = "Małolat"
+pageRef = "/malolat"
+weight = 50
