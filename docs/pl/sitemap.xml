@@ -2,107 +2,107 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://127.0.0.1:1315/</loc>
+    <loc>https://piotrstatkiewicz.pl/</loc>
     <lastmod>2024-06-30T20:34:18+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://127.0.0.1:1315/en/"
+                href="https://piotrstatkiewicz.pl/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pl-PL"
-                href="http://127.0.0.1:1315/"
+                href="https://piotrstatkiewicz.pl/"
                 />
   </url><url>
-    <loc>http://127.0.0.1:1315/posts/my-first-post/</loc>
+    <loc>https://piotrstatkiewicz.pl/posts/my-first-post/</loc>
     <lastmod>2024-06-30T20:34:18+02:00</lastmod>
   </url><url>
-    <loc>http://127.0.0.1:1315/posts/</loc>
+    <loc>https://piotrstatkiewicz.pl/posts/</loc>
     <lastmod>2024-06-30T20:34:18+02:00</lastmod>
   </url><url>
-    <loc>http://127.0.0.1:1315/family/</loc>
+    <loc>https://piotrstatkiewicz.pl/family/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://127.0.0.1:1315/en/family/"
+                href="https://piotrstatkiewicz.pl/en/family/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pl-PL"
-                href="http://127.0.0.1:1315/family/"
+                href="https://piotrstatkiewicz.pl/family/"
                 />
   </url><url>
-    <loc>http://127.0.0.1:1315/malolat/</loc>
+    <loc>https://piotrstatkiewicz.pl/malolat/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://127.0.0.1:1315/en/malolat/"
+                href="https://piotrstatkiewicz.pl/en/malolat/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pl-PL"
-                href="http://127.0.0.1:1315/malolat/"
+                href="https://piotrstatkiewicz.pl/malolat/"
                 />
   </url><url>
-    <loc>http://127.0.0.1:1315/notes/</loc>
+    <loc>https://piotrstatkiewicz.pl/notes/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://127.0.0.1:1315/en/notes/"
+                href="https://piotrstatkiewicz.pl/en/notes/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pl-PL"
-                href="http://127.0.0.1:1315/notes/"
+                href="https://piotrstatkiewicz.pl/notes/"
                 />
   </url><url>
-    <loc>http://127.0.0.1:1315/photos/</loc>
+    <loc>https://piotrstatkiewicz.pl/photos/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://127.0.0.1:1315/en/photos/"
+                href="https://piotrstatkiewicz.pl/en/photos/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pl-PL"
-                href="http://127.0.0.1:1315/photos/"
+                href="https://piotrstatkiewicz.pl/photos/"
                 />
   </url><url>
-    <loc>http://127.0.0.1:1315/work/</loc>
+    <loc>https://piotrstatkiewicz.pl/work/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://127.0.0.1:1315/en/work/"
+                href="https://piotrstatkiewicz.pl/en/work/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pl-PL"
-                href="http://127.0.0.1:1315/work/"
+                href="https://piotrstatkiewicz.pl/work/"
                 />
   </url><url>
-    <loc>http://127.0.0.1:1315/categories/</loc>
+    <loc>https://piotrstatkiewicz.pl/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://127.0.0.1:1315/en/categories/"
+                href="https://piotrstatkiewicz.pl/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pl-PL"
-                href="http://127.0.0.1:1315/categories/"
+                href="https://piotrstatkiewicz.pl/categories/"
                 />
   </url><url>
-    <loc>http://127.0.0.1:1315/tags/</loc>
+    <loc>https://piotrstatkiewicz.pl/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://127.0.0.1:1315/en/tags/"
+                href="https://piotrstatkiewicz.pl/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pl-PL"
-                href="http://127.0.0.1:1315/tags/"
+                href="https://piotrstatkiewicz.pl/tags/"
                 />
   </url>
 </urlset>

@@ -35,4 +35,4 @@ git submodule update --init --recursive
 echo "Starting local preview on http://localhost:1313"
 echo "(RSS disabled locally to avoid current PaperMod/Hugo RSS issue)"
 echo "Tip: add -D if you want to include draft content."
-exec hugo server --disableFastRender --disableKinds RSS "$@"
+exec hugo server --disableFastRender --disableKinds RSS --renderToMemory "$@"

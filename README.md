@@ -55,6 +55,7 @@ This runs:
 
 - `./scripts/verify-story-1-1.sh`
 - `./scripts/verify-i18n-nav.sh`
+- `./scripts/verify-production-output.sh`
 - `./scripts/e2e-smoke.sh`
 - `./scripts/e2e-navigation.sh`
 

@@ -33,9 +33,9 @@ hugo server \
   --source "$repo_root" \
   --disableFastRender \
   --disableKinds RSS \
+  --renderToMemory \
   --bind 127.0.0.1 \
   --port "$port" \
-  --baseURL "${base_url}/" \
   >"$server_log" 2>&1 &
 server_pid="$!"
 

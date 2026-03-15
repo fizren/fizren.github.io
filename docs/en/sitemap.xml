@@ -2,100 +2,100 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://127.0.0.1:1315/en/</loc>
+    <loc>https://piotrstatkiewicz.pl/en/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pl-PL"
-                href="http://127.0.0.1:1315/"
+                href="https://piotrstatkiewicz.pl/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://127.0.0.1:1315/en/"
+                href="https://piotrstatkiewicz.pl/en/"
                 />
   </url><url>
-    <loc>http://127.0.0.1:1315/en/family/</loc>
+    <loc>https://piotrstatkiewicz.pl/en/family/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pl-PL"
-                href="http://127.0.0.1:1315/family/"
+                href="https://piotrstatkiewicz.pl/family/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://127.0.0.1:1315/en/family/"
+                href="https://piotrstatkiewicz.pl/en/family/"
                 />
   </url><url>
-    <loc>http://127.0.0.1:1315/en/malolat/</loc>
+    <loc>https://piotrstatkiewicz.pl/en/malolat/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pl-PL"
-                href="http://127.0.0.1:1315/malolat/"
+                href="https://piotrstatkiewicz.pl/malolat/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://127.0.0.1:1315/en/malolat/"
+                href="https://piotrstatkiewicz.pl/en/malolat/"
                 />
   </url><url>
-    <loc>http://127.0.0.1:1315/en/notes/</loc>
+    <loc>https://piotrstatkiewicz.pl/en/notes/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pl-PL"
-                href="http://127.0.0.1:1315/notes/"
+                href="https://piotrstatkiewicz.pl/notes/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://127.0.0.1:1315/en/notes/"
+                href="https://piotrstatkiewicz.pl/en/notes/"
                 />
   </url><url>
-    <loc>http://127.0.0.1:1315/en/photos/</loc>
+    <loc>https://piotrstatkiewicz.pl/en/photos/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pl-PL"
-                href="http://127.0.0.1:1315/photos/"
+                href="https://piotrstatkiewicz.pl/photos/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://127.0.0.1:1315/en/photos/"
+                href="https://piotrstatkiewicz.pl/en/photos/"
                 />
   </url><url>
-    <loc>http://127.0.0.1:1315/en/work/</loc>
+    <loc>https://piotrstatkiewicz.pl/en/work/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pl-PL"
-                href="http://127.0.0.1:1315/work/"
+                href="https://piotrstatkiewicz.pl/work/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://127.0.0.1:1315/en/work/"
+                href="https://piotrstatkiewicz.pl/en/work/"
                 />
   </url><url>
-    <loc>http://127.0.0.1:1315/en/categories/</loc>
+    <loc>https://piotrstatkiewicz.pl/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pl-PL"
-                href="http://127.0.0.1:1315/categories/"
+                href="https://piotrstatkiewicz.pl/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://127.0.0.1:1315/en/categories/"
+                href="https://piotrstatkiewicz.pl/en/categories/"
                 />
   </url><url>
-    <loc>http://127.0.0.1:1315/en/tags/</loc>
+    <loc>https://piotrstatkiewicz.pl/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pl-PL"
-                href="http://127.0.0.1:1315/tags/"
+                href="https://piotrstatkiewicz.pl/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://127.0.0.1:1315/en/tags/"
+                href="https://piotrstatkiewicz.pl/en/tags/"
                 />
   </url>
 </urlset>
